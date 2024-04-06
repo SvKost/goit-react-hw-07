@@ -1,7 +1,8 @@
-import css from "./Contact.module.css";
 import { FaUser } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
 import { useDispatch } from "react-redux";
+
+import css from "./Contact.module.css";
 import { deleteContact } from "../../redux/contactsOps";
 
 export default function Contact({ contact: { id, name, number } }) {
